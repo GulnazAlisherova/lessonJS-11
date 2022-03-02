@@ -10,3 +10,4 @@ document.querySelectorAll('.accordion').forEach(accordion => {
     accordion.classList.toggle('accordion--open');
   });
 }); 
+
