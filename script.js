@@ -1,5 +1,5 @@
 document.querySelectorAll('.accordion').forEach(accordion => {
   accordion.querySelector('.accordion__header').addEventListener('click', function(){
-    accordion.classList
-  })
-})
+    accordion.classList.toggle('accordion--open');
+  });
+});
