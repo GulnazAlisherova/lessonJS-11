@@ -11,3 +11,4 @@ document.querySelectorAll('.accordion').forEach(accordion => {
   });
 }); 
 
+document
