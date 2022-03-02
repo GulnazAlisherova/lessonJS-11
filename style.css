@@ -25,7 +25,7 @@
 
 
 /* block - accordion*/
-.accordions{
+.accordion{
   border: 1px solid lightgray;
   border-radius: .5rem;
   overflow: hidden;
@@ -56,3 +56,4 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
+  
