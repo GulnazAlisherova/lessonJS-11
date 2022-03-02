@@ -36,5 +36,5 @@
 }
 .accordion__content{
   border-top: 1px solid lightgray;
-  padding: .5rem;
+  padding: .5rem 1rem;
 }
