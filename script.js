@@ -11,4 +11,4 @@ document.querySelectorAll('.accordion').forEach(accordion => {
   });
 }); 
 
-document.querySelectorAll('[data-modal]').forEach
+document.querySelectorAll('[data-modal]').forEach(trigger)
