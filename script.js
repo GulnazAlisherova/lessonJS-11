@@ -16,4 +16,6 @@ document.querySelectorAll('[data-modal]').forEach(trigger => {
     document.getElementById(trigger.dataset.modal).classList.add('modal--open');
   });
 });
-document.querySelectorAll('.modal').forEach
+document.querySelectorAll('.modal').forEach(modal => {
+  modal.
+})
