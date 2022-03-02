@@ -75,3 +75,6 @@
   align-items: center;
   justify-content: center;
 }
+.modal__content{
+  background-color: white;
+}
