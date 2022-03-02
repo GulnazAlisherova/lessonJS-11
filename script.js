@@ -1,1 +1,5 @@
-document.querySelector
+document.querySelectorAll('.accordion').forEach(accordion => {
+  accordion.querySelector('.accordion__header').addEventListener('click', function(){
+    accordion.classList
+  })
+})
