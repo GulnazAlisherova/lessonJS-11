@@ -24,7 +24,7 @@
 }
 
 
-/*Accordion*/
+/* block - accordion*/
 .accordion{
   border: 1px solid lightgray;
   border-radius: .5rem;
@@ -35,8 +35,13 @@
   cursor: pointer;
   font-weight: bold;
   background-color: rgb(216, 239, 247);
+
 }
 .accordion__content{
   border-top: 1px solid lightgray;
   padding: .5rem 1rem;
 }
+.accordion--closed .accordion__content{
+  display: none;
+}
+
