@@ -13,6 +13,6 @@ document.querySelectorAll('.accordion').forEach(accordion => {
 
 document.querySelectorAll('[data-modal]').forEach(trigger => {
   trigger.addEventListener('click', function() {
-    document.getElementById(trigger.dataset)
+    document.getElementById(trigger.dataset.modal).classList
   })
 })
