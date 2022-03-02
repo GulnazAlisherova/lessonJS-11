@@ -29,4 +29,12 @@
   border: 1px solid lightgray;
   border-radius: .5rem;
 }
-
+.accordion__header{
+  padding: .5rem;
+  font-weight: bold;
+  background-color: rgb(216, 239, 247);
+}
+.accordion__content{
+  border-top: 1px solid lightgray;
+  padding: .5rem;
+}
