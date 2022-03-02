@@ -3,7 +3,10 @@ document.querySelectorAll('.accordion').forEach(accordion => {
 
   accordion.querySelector('.accordion__header').addEventListener('click', function(){
     if (parent && parent.classList.contains('accordions--toggle')){
-      parent.querySelectorAll('.accordion').forEach(accordion =>)
+      parent.querySelectorAll('.accordion').forEach(accordion =>{
+        accordion.classList
+      })
+      }
     }
     accordion.classList.toggle('accordion--open');
   });
