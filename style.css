@@ -67,4 +67,8 @@
 .modal__window{
   position: fixed;
   top: 0;
+  left: 0;
+
+
+
 }
