@@ -14,6 +14,9 @@
   cursor: pointer;
   font-size: 1rem;
   text-decoration: none;
-
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn--outlined{
+  border: 2px solid ;
 }
