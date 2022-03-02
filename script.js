@@ -4,9 +4,8 @@ document.querySelectorAll('.accordion').forEach(accordion => {
   accordion.querySelector('.accordion__header').addEventListener('click', function(){
     if (parent && parent.classList.contains('accordions--toggle')){
       parent.querySelectorAll('.accordion').forEach(accordion =>{
-        accordion.classList.remove
-      })
-      }
+        accordion.classList.remove("accordion--open");
+      });
     }
     accordion.classList.toggle('accordion--open');
   });
