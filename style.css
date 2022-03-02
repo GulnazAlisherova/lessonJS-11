@@ -41,7 +41,7 @@
   border-top: 1px solid lightgray;
   padding: .5rem 1rem;
 }
-.accordion--closed .accordion__content{
-  display: none;
+.accordion--open .accordion__content{
+  display: block;
 }
 
