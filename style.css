@@ -66,4 +66,5 @@
 } 
 .modal__window{
   position: fixed;
+  top: 0;
 }
