@@ -12,5 +12,5 @@ document.querySelectorAll('.accordion').forEach(accordion => {
 }); 
 
 document.querySelectorAll('[data-modal]').forEach(trigger => {
-  trigger.addEventListener('click')
+  trigger.addEventListener('click', function())
 })
