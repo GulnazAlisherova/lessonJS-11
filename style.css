@@ -28,9 +28,11 @@
 .accordion{
   border: 1px solid lightgray;
   border-radius: .5rem;
+  overflow: hidden;
 }
 .accordion__header{
   padding: .5rem;
+  cursor: pointer;
   font-weight: bold;
   background-color: rgb(216, 239, 247);
 }
