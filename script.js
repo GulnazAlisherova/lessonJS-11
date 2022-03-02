@@ -17,5 +17,5 @@ document.querySelectorAll('[data-modal]').forEach(trigger => {
   });
 });
 document.querySelectorAll('.modal').forEach(modal => {
-  modal.querySelector
+  modal.querySelector('.modal__window')
 })
