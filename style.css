@@ -58,5 +58,6 @@
 }
 .modal__backdrop{
   position: fixed;
-  top: ;
+  top: 0;
+  left: 0;
 } 
