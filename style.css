@@ -20,5 +20,13 @@
 .btn--outlined{
   border: 2px solid purple;
   color: purple;
-  
+
 }
+
+
+/*Accordion*/
+.accordion{
+  border: 1px solid lightgray;
+  border-radius: .5rem;
+}
+
